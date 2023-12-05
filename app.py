@@ -1,10 +1,8 @@
 from flask import Flask, render_template, request, send_file, url_for
 import os
-import torch
 from ultralytics import YOLO
 from werkzeug.utils import secure_filename
 from PIL import Image, ImageDraw
-import numpy as np
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads/'
