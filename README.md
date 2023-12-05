@@ -15,7 +15,7 @@ virtualenv venv
 
 Clone into the Repository
 ```
-git clone https://github.com/Yousuf200/housePrice.git
+git clone https://github.com/Yousuf200/Image2Code_v1.git
 ```
 
 Install the requirements
