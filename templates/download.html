@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Download File</title>
+</head>
+<body>
+    <h1>Download Processed File</h1>
+    <img style="height: 500px;width: 700px" src="{{ url_for('static', filename=image_filename) }}" alt="Predicted Image"><br><br>
+    <a href="/download/{{ html_filename }}">Download HTML File</a>
+</body>
+</html>
