@@ -2,3 +2,4 @@ flask
 ultralytics
 werkzeug
 Pillow
+gunicorn
